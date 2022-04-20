@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/js-favicon.png">
   <title>Jasey Smith | Front-end developer</title>
 </head>
 <body>
@@ -37,7 +38,115 @@
           <a href="#projects" class="btn">View my work</a>
         </div>
         <div class="art">
-          <img src="img/undraw_laptop.svg" alt="laptop displaying code">
+          <div class="laptop">
+            <div class="screen">
+              <div class="display">
+                <div class="half-screen">
+                  <div class="window">
+                    <div class="bar">
+                      <div class="circle"></div>
+                      <div class="circle"></div>
+                      <div class="circle"></div>
+                    </div>
+                    <div class="laptop-header">
+                      <div class="laptop-logo"></div>
+                      <div class="laptop-nav"></div>
+                    </div>
+                    <div class="midbar">
+                      <div class="one-third-col margin-right"></div>
+                      <div class="two-thirds-col"></div>
+                    </div>
+                    <div class="bottombar">
+                      <div class="one-third-col margin-right"></div>
+                      <div class="one-third-col margin-right"></div>
+                      <div class="one-third-col"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="half-screen">
+                  <div class="code">
+                    <div class="line">
+                      <div class="item med"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small margin-right"></div>
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large margin-right"></div>
+                      <div class="item med"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med margin-right"></div>
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large margin-right"></div>
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small margin-right"></div>
+                      <div class="item small margin-right"></div>
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med margin-right"></div>
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large margin-right"></div>
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med margin-right"></div>
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small margin-right"></div>
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med margin-right"></div>
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small margin-right"></div>
+                      <div class="item med"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item large"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item med"></div>
+                    </div>
+                    <div class="line">
+                      <div class="item small"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="trapezoid">
+              <div class="keypad"></div>
+              <div class="mousepad"></div>
+            </div>
+            <div class="base"></div>
+          </div>
         </div>
         <div class="vert-social-links">
           <ul>

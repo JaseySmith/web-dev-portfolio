@@ -11,6 +11,7 @@ $nameAlert = '';
 $emailAlert = '';
 $error = '';
 
+// Remove for editing locally
 // include '../secure/secure.php';
 
 
