@@ -166,6 +166,7 @@ h1 {
 #home .text {
   color: #adadad;
   margin-top: 15px;
+  line-height: 1.3;
 }
 
 #home span {
@@ -294,6 +295,7 @@ h3 {
 #about .text {
   margin: 1em 0;
   color: #191a1d;
+  line-height: 1.3;
 }
 
 /* Projects section */
@@ -355,6 +357,10 @@ h3 {
 
 #projects h3 {
   margin-bottom: 20px;
+}
+
+#projects .text {
+  line-height: 1.3;
 }
 
 .column .text {
@@ -862,6 +868,7 @@ footer a:hover .social-link {
   }
   
   .text-col {
+    text-align: center;
     grid-column: auto;
     padding: 40px 0 0 0;
   }
@@ -869,6 +876,10 @@ footer a:hover .social-link {
   .img-wrap img {
     height: auto;
     width: 100%;
+  }
+
+  #projects .link {
+    margin: 0 auto;
   }
   
   #contact {

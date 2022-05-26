@@ -190,7 +190,7 @@
         <div class="row scroll-container">
           <div class="column col-one-span-two scroll-element js-scroll fade-in">
             <div class="img-wrap">
-              <a href="http://scaryplacesnearme.com/" target="_blank"><img src="img/project-one-img.jpg"></a>
+              <a href="http://scaryplacesnearme.com/" target="_blank"><img src="img/project-one-img.webp"></a>
             </div>
           </div>
           <div class="column text-col scroll-element js-scroll slide-right">
@@ -208,7 +208,7 @@
         <div class="row scroll-container">
           <div class="column col-one-span-two scroll-element js-scroll fade-in">
             <div class="img-wrap">
-              <a href="https://haysclaysco.com/" target="_blank"><img src="img/project-two-img.jpg"></a>
+              <a href="https://haysclaysco.com/" target="_blank"><img src="img/project-two-img.webp"></a>
             </div>
           </div>
           <div class="column text-col scroll-element js-scroll slide-right">
@@ -225,7 +225,7 @@
         <div class="row scroll-container">
           <div class="column col-one-span-two scroll-element js-scroll fade-in">
             <div class="img-wrap">
-            <a href="http://jaseysmith.com/" target="_blank"><img src="img/project-three-img.jpg"></a>
+            <a href="http://jaseysmith.com/" target="_blank"><img src="img/project-three-img.webp"></a>
             </div>
           </div>
           <div class="column text-col scroll-element js-scroll slide-right">
