@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="img/js-favicon.png">
   <title>Jasey Smith | Front-end developer</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Q10X3PLR1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0Q10X3PLR1');
+  </script>
 </head>
 <body>
   <div>
