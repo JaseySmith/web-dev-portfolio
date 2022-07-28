@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
         <title>Thank you!</title>
     </head>
-    <body class="white-background">
+    <body>
         <div class="showcase">
             <div class="box">
                 <h2 class="thanks-text">Thank you!</h2>

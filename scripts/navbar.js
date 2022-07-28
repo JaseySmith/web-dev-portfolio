@@ -1,25 +1,26 @@
 // Variables
-var nav = document.querySelector('.sub-nav');
-var subNav = document.querySelectorAll('.sub-nav a');
+var nav = document.querySelector('.nav');
+var subNav = document.querySelectorAll('.nav a');
 var burger = document.querySelector('.burger');
 var body = document.querySelector('body');
 
 // Shrink navbar on scroll
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector('.sub-nav').style.top = "68px";
-    document.getElementById("nav").style.paddingTop = "5px";
-    document.getElementById("nav").style.paddingBottom = "10px";
-    document.getElementById("logo").style.fontSize = "45px";
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+    document.getElementById("header").style.paddingTop = "0.6em";
+    document.getElementById("header").style.paddingBottom = "0.6em";
+    document.getElementById("header").style.backgroundColor = "var(--dark-bg)";
+    document.getElementById("header").style.borderBottom = "1px solid var(--shade-color)";
+    document.getElementById("logo").style.fontSize = "2.75em";
   } else {
-    document.querySelector('.sub-nav').style.top = "97px";
-    document.getElementById("nav").style.paddingTop = "10px";
-    document.getElementById("nav").style.paddingBottom = "15px";
-    document.getElementById("logo").style.fontSize = "60px";
+    document.getElementById("header").style.paddingTop = "1em";
+    document.getElementById("header").style.paddingBottom = "1em";
+    document.getElementById("header").style.backgroundColor = "var(--light-bg)";
+    document.getElementById("header").style.borderBottom = "none";
+    document.getElementById("logo").style.fontSize = "3.5em";
   }
 }
 
-  
 window.onscroll = function() {scrollFunction()};
 
 // Burger click/touch event
@@ -29,7 +30,7 @@ $(burger).on('click touch', function () {
   animateBurger();
   noScroll();
 })
-
+  
 // Link click event
 function linkClick() {
   if (window.innerWidth < 1024) {
@@ -39,7 +40,7 @@ function linkClick() {
     noScroll();
   }
 }
-
+  
 // Menu overlay
 function openNav() {
   nav.classList.toggle('nav-active');
@@ -51,11 +52,11 @@ function animateLinks() {
     if (link.style.animation) {
         link.style.animation = '';
     } else {
-        link.style.animation = `navLinkFade 0.6s ease forwards ${index / 7 + 0.35}s`
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.1}s`
     }
   });
 }
-
+  
 // Burger animation
 function animateBurger() {
   burger.classList.toggle('toggle');
