@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <script src="https://kit.fontawesome.com/fbe66ddc41.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
@@ -24,15 +24,18 @@
   <div>
     <div id="header">
       <div class="container">
-        <a id="logo" href="index.php"><span>J</span>S</a>
+        <a id="logo" href="index.php">
+          <div class="j">J</div>
+          <div class="s">S</div>
+        </a>
         <div class="nav">
           <a href="#home" onclick="linkClick()" class="text hover-effect">Home</a>
           <a href="#about" onclick="linkClick()" class="text hover-effect">About</a>
-          <a href="#projects" onclick="linkClick()" class="text hover-effect">Work</a>
+          <a href="#projects" onclick="linkClick()" class="text hover-effect">Projects</a>
           <a href="#contact" onclick="linkClick()" class="text hover-effect">Contact</a>
           <label id="toggle" for="checkbox">
             <input type="checkbox" id="checkbox" />
-            <div class="slider"></div>
+            <i class="fa-solid fa-circle-half-stroke"></i>
           </label>
         </div>
         <div class="burger">
@@ -46,109 +49,100 @@
       <div id="particles-js">
         <div class="content">
           <h1>Hi, I'm Jasey Smith.</h1>
-          <p class="text lighter-text">I'm a front-end web developer located in Sacramento, CA. I have a passion for turning ideas/businesses into exceptional digital experiences. Let's build something great together!</p>
-          <a href="#projects" class="btn text">View my work</a>
+          <p class="text">I am a <span class="font-weight">front-end web developer</span> located in Northern California.<br> I enjoy turning ideas into <span class="font-weight">exceptional digital experiences.</span></p>
+          <a href="#projects" class="btn">View projects</a>
         </div>
       </div>
     </section>
     <section id="about">
-      <h2>About Me</h2>
-      <p class="text margin-top lighter-text">All you need to know about my expertise and more.</p>
-      <div class="container">
-        <div class="half-column flex-icons">
-          <div class="wrap">
-            <i class="fa-brands fa-node-js"></i>
-            <p class="text show">Node.js</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-html5"></i>
-            <p class="text show">HTML5</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-sass"></i>
-            <p class="text show">Sass</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-bootstrap"></i>
-            <p class="text show">Bootstrap</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-js"></i>
-            <p class="text show">JavaScript</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-git-alt"></i>
-            <p class="text show">Git</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-react"></i>
-            <p class="text show">React</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-css3-alt"></i>
-            <p class="text show">CSS3</p>
-          </div>
-          <div class="wrap">
-            <i class="fa-brands fa-php"></i>
-            <p class="text show">PHP</p>
-          </div>
+      <div class="scroll-element js-scroll fade-in-bottom">
+        <h2 class="text-align-left">About Me</h2>
+        <hr class="line">
+      </div>
+      <div class="container scroll-element js-scroll fade-in-bottom">
+        <div class="column">
+          <p class="text">Hello, my name is Jasey. I enjoy turning ideas and businesses into exceptional digital experiences. My interest in computer science started back in 2020 when I first stumbled across the world of code. Almost immediately I began my education and started coding!<br><br>Fast-forward to today, and I've had the privelage of working on and and building dozens of web experiences. I recieved my education through a series of certifications from freecodecamp.org. I'm currently learning more about back-end development and APIs.<br><br>When I'm not coding, you can find me on a hiking trail, out of bounds on a golf course, or snowboarding in the Sierra Nevada.</p>
         </div>
-        <div class="half-column content">
-          <div>
-            <h3>Designer<i class="fa-solid fa-brush"></i></h3>
-            <p class="text lighter-text">I believe in giving the user all the information they need, in a way they will enjoy. I achieve this through visual hierarchy, a color palette that aligns with the brand, and much more.</p>
-          </div>
-          <div>
-            <h3>Developer<i class="fa-solid fa-file-code"></i></h3>
-            <p class="text lighter-text">I enjoy watching ideas come to life in the browser. Whether you need a hand coded static website or a Shopify e-commerce site, I can provide just about any web solution for you.</p>
-          </div>
-          <div>
-            <h3>Interests<i class="fa-solid fa-golf-ball-tee"></i></h3>
-            <p class="text lighter-text">You can find me doing various outdoor activities when I'm not coding. I enjoy a nice hike, round of golf with friends, and snowboarding somewhere in the Sierra Nevada.</p>
+        <div class="column">
+          <div class="graphic" href="index.php">
+            <div class="circle1"><img src="img/self-portrait.webp"></div>
+            <div class="circle2"></div>
           </div>
         </div>
       </div>
     </section>
     <section id="projects">
-      <h2>Recent Work</h2>
-      <p class="text margin-top lighter-text">Here are a few projects I've worked on recently.</p>
-      <div class="container">
-        <div class="card">
-          <a href="http://scaryplacesnearme.com/" target="_blank"><img src="img/project-one-img.webp"></a>
-          <div class="overlay">
-            <h3>Scary Places<i class="fa-solid fa-square-arrow-up-right"></i></h3>
-            <p class="text lighter-text">Find scary places searching a database using Google Maps API.</p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://haysclaysco.com/" target="_blank"><img src="img/project-two-img.webp"></a>
-          <div class="overlay">
-            <h3>Hays Clays Co<i class="fa-solid fa-square-arrow-up-right"></i></h3>
-            <p class="text lighter-text">A Shopify e-commerce website with a customized debut theme.</p>
-          </div>
-        </div>
-        <div class="card">
-          <a href="http://jaseysmith.com/" target="_blank"><img src="img/project-three-img.webp"></a>
-          <div class="overlay">
-            <h3>Jasey Smith<i class="fa-solid fa-square-arrow-up-right"></i></h3>
-            <p class="text lighter-text">My Static web portfolio built with a handful of JavaScript.</p>
-          </div>
-        </div>
+      <div class="scroll-element js-scroll fade-in-bottom">
+        <h2>Projects</h2>
+        <hr class="line">
       </div>
-      <div class="center">
-        <a href="https://github.com/JaseySmith" class="btn text" target="_blank">View Github<i class="fab fa-github social-link"></i></a>
+      <div class="container scroll-element js-scroll fade-in-bottom">
+        <div class="card first-half">
+          <a href="http://scaryplacesnearme.com/" target="_blank"><img src="img/scary-places.webp"></a>
+        </div>
+        <div class="card mq-padding text-overlap">
+          <p class="text green">Featured Project</p>
+          <h3>Web Application</h3>
+          <p class="text description">A project of mine that supports a micro-brand I started back in 2019. The front-end is CSS, JS, and jQuery. I am still developing the back-end for searching a database of scary places.</p>
+          <ul class="text tech-list">
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/JaseySmith/scary-places-website" target="_blank"><i class="fab fa-github social-link" aria-hidden="true"></i></a>
+            <a href="http://scaryplacesnearme.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="card mq-padding alt-overlap">
+          <p class="text green">Featured Project</p>
+          <h3>E-commerce Website</h3>
+          <p class="text description">A shopify e-commerce website I developed for a client needing a platform to sell her custom clay earrings. Built using the Debut theme with some custom HTML/CSS and plug-ins for some extra customization.</p>
+          <ul class="text tech-list">
+            <li>Shopify</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>E-commerce</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://haysclaysco.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="card second-half">
+          <a href="https://haysclaysco.com/" target="_blank"><img src="img/hays-clays-co.webp"></a>
+        </div>
+        <div class="card first-half last-row">
+          <a href="http://jaseysmith.com/" target="_blank"><img src="img/jasey-smith.webp"></a>
+        </div>
+        <div class="card mq-padding text-overlap last-row">
+          <p class="text green">Featured Project</p>
+          <h3>Portfolio Website</h3>
+          <p class="text description">The front-end is developed with CSS, JS, and jQuery. The back-end includes a PHP script that sends form submissions to my phone. I also used particles.js for creating the particles.</p>
+          <ul class="text tech-list">
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>PHP</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/JaseySmith/web-dev-portfolio" target="_blank"><i class="fab fa-github social-link" aria-hidden="true"></i></a>
+            <a href="http://jaseysmith.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact">
-      <h2>Say Hello!</h2>
-      <p class="text lighter-text">Have a question or want to work together?</p>
-      <div class="container">
+      <div class="scroll-element js-scroll fade-in-bottom">
+        <h2>Say Hello!</h2>
+        <p class="text margin-top">Have a question or want to work together?</p>
+      </div>
+      <div class="container scroll-element js-scroll fade-in-bottom">
         <form class="form" method="POST" action="index.php#contact">
-          <input class="scroll-element js-scroll fade-in" type="text" name="name" placeholder="Name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name'], ENT_QUOTES) : ''; ?>">
+          <input type="text" name="name" placeholder="Name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name'], ENT_QUOTES) : ''; ?>">
           <?php echo $nameAlert; ?>
-          <input class="scroll-element js-scroll fade-in" type="text" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email'], ENT_QUOTES) : ''; ?>">
+          <input type="text" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email'], ENT_QUOTES) : ''; ?>">
           <?php echo $emailAlert; ?>
-          <textarea class="scroll-element js-scroll fade-in" name="message" placeholder="How may I help?"><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message'], ENT_QUOTES) : ''; ?></textarea>
+          <textarea name="message" placeholder="How may I help?"><?php echo isset($_POST['message']) ? htmlspecialchars($_POST['message'], ENT_QUOTES) : ''; ?></textarea>
           <?php echo $error; ?>
           <div class="center">
             <input type="submit" name="submit" class="btn text" id="btn" value="Send Message">
@@ -171,8 +165,6 @@
     </footer>
   </div>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  <script src="scripts/particles.js"></script>
-  <script src="scripts/dark_mode.js"></script>
-  <script src="scripts/navbar.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
